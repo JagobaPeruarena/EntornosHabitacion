@@ -6,9 +6,11 @@ public class Administrator {
 		// TODO Auto-generated method stub
 		Habitacion h= new Habitacion();
 		h.ocupar();
+		h.liberar();
 		h.limpiar();
 		h.liberar();
 		h.ocupar();
+		h.salir();
 		h.limpiar();
 		h.liberar();
 		h.ocupar();
